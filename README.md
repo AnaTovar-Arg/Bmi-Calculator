@@ -1,16 +1,19 @@
 # Indice de masa corporal
-Se desea desarrollar un programa de consola que calcule el índice de masa corporal de una persona. La aplicación solicitara el peso de la persona (en kilogramos) y su estatura (en metros). El índice de masa corporal (IMC) se calcula utilizando la siguiente fórmula:
+
+Instrucciones
+Se requiere desarrollar un programa de consola que calcule el índice de masa corporal de una persona. La aplicación solicitara el peso de la persona (en kilogramos) y su estatura (en metros). El índice de masa corporal (IMC) se calcula utilizando la siguiente fórmula:
 
 IMC = peso / estatura2
 
-Luego, a partir del IMC obtenido se pueden calcular si una persona tiene un peso normal, inferior o superior al normal u obesidad. Para generar estos resultados el IMC calculado debe estar en los rangos de la tabla (Ver documento adjunto)
+Luego, a partir del IMC obtenido se puede calcular si una persona tiene un peso normal, inferior o superior al normal, u obesidad. Para generar estos resultados el IMC calculado debe estar en los rangos de la tabla.
 
-Requisitos:
-Obligatorio realizar los pruebas unitarias (coverage mínimo 70%)
-
-Entregables:
-Repositorio de GitHub (enlace)
-
-Diagrama de actividad
-
-Captura de pantalla de la sección "Testing" de visual studio code donde se aprecia el coverage de los tests
+Tabla de resultados del IMC
+IMC	Resultado
+< 16	Delgadez severa
+16 - 17	Delgadez moderada
+17 - 18,5	Delgadez leve
+18,5 - 25	Peso normal
+25 - 30	Sobrepeso
+30 - 35	Obesidad leve
+35 - 40	Obesidad moderada
+>= 40	Obesidad mórbida
